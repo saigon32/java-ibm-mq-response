@@ -1,5 +1,7 @@
 # Java mq response
 
+video: https://www.youtube.com/watch?v=ZTXQq9hxlV8
+
 microservicio que permite recibir, procesar y responder mensajeria sobre colas mq, es necesario subirlo para que se orqueste con java-ibm-mq
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/158ef467-2fff-4844-a2c8-eade0eb5dd73" />
@@ -51,3 +53,4 @@ runmqsc QM1
   stop conn(441F036500130240)
 
 ```
+
