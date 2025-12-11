@@ -1,5 +1,10 @@
 # Java mq response
 
+microservicio que permite recibir, procesar y responder mensajeria sobre colas mq, es necesario subirlo para que se orqueste con java-ibm-mq
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/158ef467-2fff-4844-a2c8-eade0eb5dd73" />
+
+
 ```sh
 docker run -e LICENSE=accept -e MQ_QMGR_NAME=QM1 -p 1414:1414 -p 9443:9443 -d --name ibmmq -e MQ_APP_PASSWORD=passw0rd ibmcom/mq
 ```
@@ -44,4 +49,5 @@ runmqsc QM1
   # Obtener conexión
   DIS CONN(*)  WHERE(OBJNAME EQ AMQ.6503235B256C1301)
   stop conn(441F036500130240)
+
 ```
